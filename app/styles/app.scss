@@ -1,0 +1,23 @@
+// @import 'home';
+// @import 'about';
+// @import 'projects';
+// @import 'contact';
+
+$m-gutter: 1rem;
+$m-maxwidth: 65rem;
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: $m-maxwidth;
+  margin: 0 auto;
+
+  &-links {
+    display: flex;
+  }
+
+  &-link {
+    margin: 0 1rem;
+  }
+}

@@ -1,23 +1,31 @@
-// @import 'home';
-// @import 'about';
-// @import 'projects';
-// @import 'contact';
-
 $m-gutter: 1rem;
 $m-maxwidth: 65rem;
+
+@import 'home';
+@import 'about';
+// @import 'projects';
+// @import 'contact';
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
 
 .nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: $m-maxwidth;
   margin: 0 auto;
+
+  &-home {
+
+  }
 
   &-links {
     display: flex;
+
+    &__item {
+
+      margin: 0 1rem;
+    }
   }
 
-  &-link {
-    margin: 0 1rem;
-  }
 }

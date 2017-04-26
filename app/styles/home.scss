@@ -1,0 +1,25 @@
+.headshot {
+  width: 450px;
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 15rem;
+  top: 13rem;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 70px;
+  margin: 0;
+}
+
+.bio {
+  max-width: 30rem;
+}

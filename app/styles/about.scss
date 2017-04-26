@@ -1,0 +1,18 @@
+.block {
+  background: white;
+  width: 35%;
+  height: 80vh;
+  position: absolute;
+  right: 10rem;
+  transform:skew(0deg,-5deg) translateY(7%);
+}
+
+.about-text {
+  position: absolute;
+  left: 12rem;
+  top: 10rem;
+}
+
+.bio {
+  margin: 0;
+}

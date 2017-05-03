@@ -9,10 +9,12 @@
 
 .about-text {
   position: absolute;
-  left: 12rem;
-  top: 10rem;
+  left: 8rem;
+  top: 8rem;
 }
 
 .bio {
-  margin: 0;
+  max-width: 30rem;
+  margin: 0.5rem 0 0 0;
+  line-height: 28px;
 }

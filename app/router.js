@@ -10,7 +10,10 @@ Router.map(function() {
   this.route('home', { path: '/' });
   this.route('about');
   this.route('contact');
-  this.route('projects');
+  this.route('projects', function() {
+    this.route('modal');
+    // this.route('modal', { path: '/:id' });
+  });
 });
 
 export default Router;

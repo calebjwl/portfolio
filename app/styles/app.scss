@@ -1,13 +1,16 @@
 $m-gutter: 1rem;
 $m-maxwidth: 65rem;
 
+$c-primary: rgba(#080808,.75);
+$c-white: #ececec;
+
 @import 'home';
 @import 'about';
-// @import 'projects';
+@import 'projects';
 // @import 'contact';
 @import 'reset';
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
-
+// @import 'ember-photoswipe';
 
 .nav {
   display: flex;

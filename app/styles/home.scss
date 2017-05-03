@@ -1,5 +1,5 @@
 .headshot {
-  width: 450px;
+  width: 35%;
   position: absolute;
   bottom: 0;
   right: 15%;
@@ -10,16 +10,28 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  left: 15rem;
+  left: 25%;
   top: 13rem;
 }
 
-.name {
+.title {
   font-weight: 900;
   font-size: 70px;
   margin: 0;
 }
 
-.bio {
-  max-width: 30rem;
+.button {
+  background: none;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+
+  &:hover {
+    background: $c-primary;
+    color: $c-white;
+    transition-duration: 1s;
+  }
+
+  &__text {
+    margin: 0;
+  }
 }

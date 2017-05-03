@@ -1,0 +1,6 @@
+{
+  "name": "portfolio",
+  "dependencies": {
+    "photoswipe": "^4.1.1"
+  }
+}

@@ -11,6 +11,8 @@ $c-white: #ececec;
 @import 'reset';
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
 // @import 'ember-photoswipe';
+@import "ember-modal-dialog/ember-modal-structure";
+@import "ember-modal-dialog/ember-modal-appearance";
 
 .nav {
   display: flex;

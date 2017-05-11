@@ -1,33 +1,19 @@
 <div class="section">
   <div class="container">
     <h1 class="title centered">My Work</h1>
+    {{!-- {{#photo-swipe class="grid" items=items history=false as |photoswipe|}} --}}
     <div class="grid">
-      <div class="grid__item">
-        <div class="card">
-          <img src="http://placecera.com/500/500" alt="" class="card__image">
-        </div>
-      </div>
-      <div class="grid__item">
-        <div class="card">
-          <img src="http://placecera.com/500/500" alt="" class="card__image">
-        </div>
-      </div>
-      <div class="grid__item">
-        <div class="card">
-          <img src="http://placecera.com/500/500" alt="" class="card__image">
-        </div>
-      </div>
-      <div class="grid__item">
-        <div class="card">
-          <img src="http://placecera.com/500/500" alt="" class="card__image">
-        </div>
-      </div>
-      <div class="grid__item">
-        <div class="card">
-          <img src="http://placecera.com/500/500" alt="" class="card__image">
-        </div>
-      </div>
+      {{#each items as |item|}}
+        {{#link-to 'projects.modal'}}
+          <div class="grid__item">
+            {{!-- <img class="preview" src={{item.src}} {{action 'open' (hash index=index) target=photoswipe }} class="card"/> --}}
+            <img src={{item.src}} class="card"/>
+            {{!-- <p>Built using: <img src="{{item.tools}}" alt=""></p> --}}
+          </div>
+        {{/link-to}}
+      {{/each}}
+      {{outlet}}
     </div>
+    {{!-- {{/photo-swipe}} --}}
   </div>
 </div>
-{{outlet}}

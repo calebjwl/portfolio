@@ -1,4 +1,4 @@
-2.centered {
+.centered {
   display: flex;
   align-self: center;
 }
@@ -45,6 +45,18 @@
   &:hover {
     box-shadow: 0px 0px 10px rgba(#000,.3);
     transition-duration: 1s;
+  }
+
+  &__gif {
+    display: none;
+  }
+
+  &:hover &__gif {
+    display: block;
+  }
+
+  &:hover &__image {
+    display: none;
   }
 
   &__info {

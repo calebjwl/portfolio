@@ -18,6 +18,7 @@ export default Ember.Controller.extend({
     // },
     {
       src: '/img/practip.png',
+      gif: '/img/practip-demo.gif',
       title: 'PracTip',
       description: 'PracTip is a social application that allows musicians around the world to connect with one another via challenge exercises and community forums.  Users can create their own challenges, post videos of themselves practicing challenge exercises, and post comments and critique on other users’ video submissions.',
       tools: 'Ember | Adonis | HTML5 | CSS3',
@@ -25,6 +26,7 @@ export default Ember.Controller.extend({
     },
     {
       src: '/img/wave-rider.png',
+      gif: '/img/wave-rider-demo.gif',
       title: 'Wave Rider',
       description: 'Wave Rider Surf Blog serves as a mockup design template for a business website and blog, featuring a banner, article body section, and interactive footer. I wanted to create a simple and clean layout that had a consistent color palette, highlighting the sunset tones of the banner image.',
       tools: 'HTML5 | CSS',

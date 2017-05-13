@@ -20,18 +20,22 @@
   margin: 0;
 }
 
-.button {
-  background: none;
-  padding: 0.8rem;
-  border-radius: 0.5rem;
-
-  &:hover {
-    background: $c-primary;
-    color: $c-white;
-    transition-duration: 1s;
-  }
-
-  &__text {
-    margin: 0;
-  }
+.subtitle {
+  font-size: 1.5rem;
 }
+
+// .button {
+//   background: none;
+//   padding: 0.8rem;
+//   border-radius: 0.5rem;
+//
+//   &:hover {
+//     background: $c-primary;
+//     color: $c-white;
+//     transition-duration: 1s;
+//   }
+//
+//   &__text {
+//     margin: 0;
+//   }
+// }

@@ -1,0 +1,32 @@
+.icon {
+  font-size: 150px;
+}
+
+.one-third {
+  width: calc(100% / 4 - 3rem);
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkedin {
+  color: #0077B5;
+}
+
+.email {
+  color: rgba(#737373,.51);
+}
+
+.phone {
+  color: #ffb6b6;
+}
+
+.hvr-text {
+  &:hover + .hidden {
+    display: block;
+    transition-duration: 1s;
+  }
+}

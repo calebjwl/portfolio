@@ -7,12 +7,9 @@ $c-white: #ececec;
 @import 'home';
 @import 'about';
 @import 'projects';
-// @import 'contact';
+@import 'contact';
 @import 'reset';
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
-// @import 'ember-photoswipe';
-// @import "ember-modal-dialog/ember-modal-structure";
-// @import "ember-modal-dialog/ember-modal-appearance";
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
 
 .nav {
   display: flex;

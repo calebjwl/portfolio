@@ -9,10 +9,14 @@
               <img class="card__image" src={{item.src}}/>
               <img class="card__gif" src={{item.gif}}/>
             </a>
+            <h1 class="card__title">{{item.title}}</h1>
+            <p class="card__description">{{item.description}}</p>
             <div class="card__info">
-              <h1 class="card__title">{{item.title}}</h1>
-              <p class="card__description">{{item.description}}</p>
               <p class="card__tools">{{item.tools}}</p>
+              <div class="card__info-bottom">
+                <a href="{{item.link}}">Live Site |</a>
+                <a class="card__link" href="{{item.github}}">Code</a>
+              </div>
             </div>
           </div>
         </div>

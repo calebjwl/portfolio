@@ -6,10 +6,13 @@
   width: calc(100% / 4 - 3rem);
 }
 
-.centered {
+.centered_card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: $c-white;
+  min-height: 50vh;
+  max-height: 50vh;
 }
 
 .linkedin {

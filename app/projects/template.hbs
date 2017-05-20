@@ -3,7 +3,7 @@
     <h1 class="title centered">My Work</h1>
     <div class="grid">
       {{#each items as |item|}}
-        <div class="grid__item hvr-grow">
+        <div class="grid__item">
           <div class="card">
             <a href="{{item.link}}" target="_blank" class="thumbnail">
               <img class="card__image" src={{item.src}}/>
@@ -14,8 +14,9 @@
             <div class="card__info">
               <p class="card__tools">{{item.tools}}</p>
               <div class="card__info-bottom">
-                <a href="{{item.link}}">Live Site |</a>
-                <a class="card__link" href="{{item.github}}">Code</a>
+                <a class="card__link hvr-light" target="_blank" href="{{item.link}}">Live Site</a>
+                <p>|</p>
+                <a class="card__link hvr-light" target="_blank" href="{{item.github}}">Code</a>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "version": "0.0.0",
-  "description": "Small description for portfolio goes here",
+  "version": "1.0.0",
+  "description": "",
   "license": "MIT",
   "author": "",
   "directories": {
@@ -10,9 +10,13 @@
   },
   "repository": "",
   "scripts": {
+    "start": "ember serve -lrp 35729",
+    "test": "ember test -s",
     "build": "ember build",
-    "start": "ember server",
-    "test": "ember test"
+    "lint": "sass-lint",
+    "esfix": "eslint src --fix && eslint tests --fix",
+    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist caleblee.me",
+    "setup:vue": "yarn add vue vue-router && yarn add --dev rollup-plugin-vue eslint-plugin-html"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",

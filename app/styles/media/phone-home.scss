@@ -1,0 +1,28 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .headshot {
+    bottom: 0;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 70%;
+  }
+
+  .home-text {
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+  .title {
+    font-weight: 900;
+    font-size: 3.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .see-work {
+    font-size: 1.2rem;
+  }
+}

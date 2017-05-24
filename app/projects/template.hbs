@@ -1,10 +1,10 @@
 <div class="section">
   <div class="container">
-    <h1 class="title centered">My Work</h1>
+    {{!-- <h1 class="title centered">My Work</h1> --}}
     <div class="grid">
       {{#each items as |item|}}
         <div class="grid__item">
-          <div class="card">
+          <div class="card hvr-grow">
             <a href="{{item.link}}" target="_blank" class="thumbnail">
               <img class="card__image" src={{item.src}}/>
               <img class="card__gif" src={{item.gif}}/>

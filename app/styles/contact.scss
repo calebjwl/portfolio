@@ -1,5 +1,6 @@
 .contact_grid {
   display: flex;
+  flex-wrap: wrap;
   background: $c-gray;
 
   &__item {
@@ -38,4 +39,13 @@
     display: block;
     transition-duration: 1s;
   }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.resume-icon {
+  width: 8rem;
+  margin: 1.5rem;
 }

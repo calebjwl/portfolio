@@ -36,6 +36,13 @@
   }
 }
 
+.hvr-dark {
+  &:hover {
+    color: black;
+    transition-duration: 0.5s;
+  }
+}
+
 .hvr-grow {
   // display: inline-block;
   vertical-align: middle;

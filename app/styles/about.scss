@@ -3,7 +3,7 @@
   width: 35%;
   height: 80vh;
   position: absolute;
-  right: 10rem;
+  right: 10%;
   transform: skew(0deg,-5deg) translateY(7%);
 }
 
@@ -11,7 +11,7 @@
   width: 35%;
   position: absolute;
   bottom: 0;
-  right: 15%;
+  right: 10%;
 }
 
 .about-text {
@@ -20,9 +20,14 @@
   top: 15%;
 }
 
+.about-title {
+  font-size: 4rem;
+  margin: 0;
+}
+
 .bio {
   max-width: 30rem;
   margin: 0.5rem 0 0 0;
   line-height: 28px;
-  text-transform: none;
+
 }

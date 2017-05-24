@@ -1,20 +1,21 @@
 <div class="nav">
-  {{#link-to 'home' class="nav-links__item hvr-light"}}
+  {{#link-to 'home' class="nav-links__item hvr-dark"}}
     Home
   {{/link-to}}
 
   <div class="nav-links">
-    {{#link-to 'about' class="nav-links__item hvr-light"}}
+    {{#link-to 'about' class="nav-links__item hvr-dark"}}
       About
     {{/link-to}}
 
-    {{#link-to 'projects' class="nav-links__item hvr-light"}}
+    {{#link-to 'projects' class="nav-links__item hvr-dark"}}
       Portfolio
     {{/link-to}}
 
-    {{#link-to 'contact' class="nav-links__item hvr-light"}}
+    {{#link-to 'contact' class="nav-links__item hvr-dark"}}
       contact
     {{/link-to}}
   </div>
 </div>
-{{liquid-outlet}}
+{{!-- {{liquid-outlet}} --}}
+{{outlet}}

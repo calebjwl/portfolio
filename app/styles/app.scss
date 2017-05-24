@@ -16,12 +16,14 @@ $c-gray: rgba(#fff, 0.5);
 @import 'media/phone-contact';
 @import 'media/phone-projects';
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:700');
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   margin: 0 auto;
+  text-transform: uppercase;
 
   &-home {
 
@@ -32,6 +34,7 @@ $c-gray: rgba(#fff, 0.5);
     align-items: center;
 
     &__item {
+      color: #939393;
       margin: 1rem;
     }
   }

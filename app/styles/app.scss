@@ -2,8 +2,8 @@ $m-gutter: 1rem;
 $m-maxwidth: 65rem;
 
 $c-primary: rgba(#080808,.75);
-$c-white: #fff;
-$c-gray: #f5f5f5;
+$c-white: rgba(#fff, 0.7);
+$c-gray: rgba(#fff, 0.5);
 
 @import 'home';
 @import 'about';
@@ -35,8 +35,4 @@ $c-gray: #f5f5f5;
       margin: 1rem;
     }
   }
-}
-
-.logo {
-  margin: 0.5rem;
 }

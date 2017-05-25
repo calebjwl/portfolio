@@ -37,9 +37,11 @@
 }
 
 .hvr-dark {
+  color: $c-darkgray;
+
   &:hover {
     color: black;
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
   }
 }
 
@@ -57,4 +59,31 @@
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.025);
   transform: scale(1.025);
+}
+
+.hvr-card-toggle {
+  position: relative;
+
+  &:hover > .hovered-card {
+    display: block;
+  }
+
+  &:hover:before {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 92.5%;
+    background: rgba(white, 0.9);
+    content: "";
+  }
+}
+
+.hovered-card {
+  display: none;
+  position: absolute;
+  width: 85%;
+  top: 0;
+  padding: 1rem;
 }

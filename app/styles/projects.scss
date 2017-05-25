@@ -69,3 +69,13 @@
   cursor: pointer;
   // height: calc(100vh / 2 - 5rem);
 }
+
+.title-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.music-links {
+  font-size: 3rem;
+}

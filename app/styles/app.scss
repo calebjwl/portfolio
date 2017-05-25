@@ -4,6 +4,7 @@ $m-maxwidth: 65rem;
 $c-primary: rgba(#080808,.75);
 $c-white: rgba(#fff, 0.7);
 $c-gray: rgba(#fff, 0.5);
+$c-darkgray: #939393;
 
 @import 'home';
 @import 'about';
@@ -21,8 +22,9 @@ $c-gray: rgba(#fff, 0.5);
 .nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  margin: 0 auto;
+  margin: 1rem 0 auto;
   text-transform: uppercase;
 
   &-home {
@@ -34,8 +36,13 @@ $c-gray: rgba(#fff, 0.5);
     align-items: center;
 
     &__item {
-      color: #939393;
-      margin: 1rem;
+      color: $c-darkgray;
+      margin: 0.2rem 1rem;
     }
   }
+}
+
+.bordered {
+  border-top: $c-darkgray 0.05rem solid;
+  border-bottom:  $c-darkgray 0.05rem solid;
 }

@@ -1,0 +1,27 @@
+<div class="section">
+  <div class="container">
+    <p class="title centered">Web Development</p>
+    <div class="grid">
+      {{#each items as |item|}}
+        <div class="grid__item">
+          <div class="card hvr-grow">
+            <a href="{{item.link}}" target="_blank" class="thumbnail">
+              <img class="card__image" src={{item.src}}/>
+              <img class="card__gif" src={{item.gif}}/>
+            </a>
+            <p class="card__title">{{item.title}}</p>
+            <p class="card__description">{{item.description}}</p>
+            <div class="card__info">
+              <p class="card__tools">{{item.tools}}</p>
+              <div class="card__info-bottom">
+                <a class="card__link hvr-light" target="_blank" href="{{item.link}}">Live Site</a>
+                <p>|</p>
+                <a class="card__link hvr-light" target="_blank" href="{{item.github}}">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</div>

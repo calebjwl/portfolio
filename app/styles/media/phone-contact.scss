@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .contact_grid {
+    flex-direction: column;
+
+    &__item {
+      width: calc(100% - 3rem);
+    }
+  }
+}

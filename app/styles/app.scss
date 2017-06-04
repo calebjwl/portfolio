@@ -1,23 +1,50 @@
-// @import 'home';
-// @import 'about';
-// @import 'projects';
-// @import 'contact';
-
 $m-gutter: 1rem;
 $m-maxwidth: 65rem;
 
+$c-primary: rgba(#080808,.75);
+$c-white: rgba(#fff, 0.7);
+$c-gray: rgba(#fff, 0.5);
+$c-darkgray: #939393;
+
+@import 'home';
+@import 'about';
+@import 'projects';
+@import 'contact';
+@import 'reset';
+@import 'hover';
+@import 'media/phone-home';
+@import 'media/phone-about';
+@import 'media/phone-contact';
+@import 'media/phone-projects';
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:700');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  max-width: $m-maxwidth;
-  margin: 0 auto;
+  margin: 1rem 0 auto;
+  text-transform: uppercase;
+  font-family: 'Work Sans', sans-serif;
+
+  &-home {
+
+  }
 
   &-links {
     display: flex;
-  }
+    align-items: center;
 
-  &-link {
-    margin: 0 1rem;
+    &__item {
+      color: $c-darkgray;
+      margin: 0.2rem 1rem;
+    }
   }
+}
+
+.bordered {
+  border-top: $c-darkgray 0.05rem solid;
+  border-bottom:  $c-darkgray 0.05rem solid;
 }

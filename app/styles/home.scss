@@ -1,0 +1,49 @@
+.headshot {
+  width: 48%;
+  position: absolute;
+  bottom: 0;
+  right: 7%;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 15%;
+  top: 34%;
+}
+
+.title {
+  font-size: 6.5rem;
+  margin: 0;
+  font-family: 'Old Standard TT';
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+
+.see-work {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+// .button {
+//   background: none;
+//   padding: 0.8rem;
+//   border-radius: 0.5rem;
+//
+//   &:hover {
+//     background: $c-primary;
+//     color: $c-white;
+//     transition-duration: 1s;
+//   }
+//
+//   &__text {
+//     margin: 0;
+//   }
+// }

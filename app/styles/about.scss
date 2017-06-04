@@ -1,0 +1,33 @@
+.block {
+  background: $c-gray;
+  width: 35%;
+  height: 80vh;
+  position: absolute;
+  right: 10%;
+  transform: skew(0deg,-5deg) translateY(7%);
+}
+
+.headshot-about {
+  width: 35%;
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+
+.about-text {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+}
+
+.about-title {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.bio {
+  font-size: rem;
+  max-width: 30rem;
+  margin: 0.5rem 0 0 0;
+  line-height: 28px;
+}

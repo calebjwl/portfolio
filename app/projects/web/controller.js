@@ -20,7 +20,7 @@ export default Ember.Controller.extend({
       src: '/img/practip.png',
       gif: '/img/practip-demo.gif',
       title: 'PracTip',
-      description: 'PracTip is a social application that allows musicians around the world to connect with one another via challenge exercises and community forums.  Users can create their own challenges, post videos of themselves practicing challenge exercises, and post comments and critique on other users’ video submissions.',
+      description: 'My final project at the Iron Yard - a social application that allows musicians around the world to connect with one another via challenge exercises and community forums.  Users can create their own challenges, post videos of themselves practicing challenge exercises, and post comments and critique on other users’ video submissions.',
       tools: 'Ember | Adonis | HTML | CSS',
       link: 'http://practip.surge.sh',
       github: 'https://github.com/practip'

@@ -5,9 +5,10 @@ export default Ember.Controller.extend({
     {
       src: '/img/bella-divine.png',
       title: 'Bella Divine Formal & Bridal',
-      description: 'Bella Divine is a formal dress and gown boutique that had all the working parts of a successful business, except for their own official website. I worked closely with their management team to create a website that would encompass their image while communicating their core beliefs and company philosophy.',
+      description: 'A formal dress and gown boutique that needed an online presence with style. I worked closely with Bella Divine\'s management team to create a user-friendly website that encompasses their image while communicating their company philosophy. This project allowed me to learn more about branding and how to implement a functional gallery in a website.',
       tools: 'Ember | HTML | CSS',
       link: 'http://belladivinedress.com',
+      github: 'https://github.com/calebjwl/belladivine',
     },
     // {
     //   src: '/img/nashvegas-skin.png',

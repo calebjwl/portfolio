@@ -7,7 +7,7 @@ export default Ember.Controller.extend({
       title: 'Black Dog Surplus',
       description: 'I had the fortunate opportunity to help my friend and upcoming artist Landon Sears, for a popular single release name Blueberry Cadillac.',
       tools: 'Photoshop CS6',
-      link: 'http://facebook.com/blackdogsurplus',
+      link: 'http://blackdogsurplus.net',
     },
     {
       src: '/img/blueberry-caddy.jpg',

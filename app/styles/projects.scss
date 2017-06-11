@@ -29,8 +29,14 @@
 }
 
 .card {
+  // height: 100%;
   padding: 1rem;
   background: $c-white;
+
+  &__image {
+    height: 15.5rem;
+    object-fit: cover;
+  }
 
   &__gif {
     display: none;

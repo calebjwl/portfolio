@@ -10,13 +10,6 @@ export default Ember.Controller.extend({
       link: 'http://belladivinedress.com',
       github: 'https://github.com/calebjwl/belladivine',
     },
-    // {
-    //   src: '/img/nashvegas-skin.png',
-    //   title: 'NashVegas Skin',
-    //   description: 'PracTip is a social application that allows musicians around the world to connect with one another via challenge exercises and community forums.  Users can create their own challenges, post videos of themselves practicing challenge exercises, and post comments and critique on other users’ video submissions.',
-    //   tools: 'HTML, CSS',
-    //   link: 'http://www.nashvegasskin.com/'
-    // },
     {
       src: '/img/practip.png',
       title: 'PracTip',

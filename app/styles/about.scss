@@ -7,6 +7,13 @@
   transform: skew(0deg,-5deg) translateY(7%);
 }
 
+.avatar {
+  display: none;
+  margin-bottom: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+
 .headshot-about {
   width: 35%;
   position: absolute;

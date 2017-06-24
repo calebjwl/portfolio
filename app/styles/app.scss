@@ -49,3 +49,8 @@ $c-darkgray: #939393;
   border-top: $c-darkgray 0.05rem solid;
   border-bottom:  $c-darkgray 0.05rem solid;
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+}

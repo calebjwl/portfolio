@@ -4,17 +4,22 @@ export default Ember.Controller.extend({
   items: [
     {
       src: '/img/self-portrait.png',
-      w: 1212,
+      w: 959,
       h: 1200,
     },
     {
       src: '/img/learning-space.png',
       w: 1642,
-      h: 1642,
+      h: 1021,
     },
     {
       src: '/img/ed-sheeran.png',
-      w: 1215,
+      w: 960,
+      h: 1198,
+    },
+    {
+      src: '/img/breaking-bad-gothic.jpg',
+      w: 960,
       h: 1198,
     },
     {
@@ -36,6 +41,11 @@ export default Ember.Controller.extend({
       src: '/img/chl.png',
       w: 500,
       h: 500,
+    },
+    {
+      src: '/img/dandy-candy.jpg',
+      w: 774,
+      h: 1034,
     },
   ]
 });

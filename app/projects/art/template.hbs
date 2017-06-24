@@ -4,7 +4,7 @@
     <div class="grid">
       {{#photo-swipe items=items history=false as |photoswipe|}}
         {{#each items as |item index|}}
-          <img class="preview card" src={{item.src}} {{action 'open' (hash index=index) target=photoswipe}} />
+          <img class="preview card hvr-grow" src={{item.src}} {{action 'open' (hash index=index) target=photoswipe}} />
         {{/each}}
       {{/photo-swipe}}
     </div>

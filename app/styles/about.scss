@@ -28,14 +28,15 @@
 .bio {
   max-width: 30rem;
   margin: 0.5rem 0 0 0;
-  line-height: 28px;
+  line-height: 25px;
 }
 
 .quote {
-  font-size: 1.5rem;
+  margin-top: -0.5rem;
+  font-size: 1.2rem;
   font-style: italic;
 
   &-tag {
-    margin-top: -1rem;
+    margin-top: -0.5rem;
   }
 }

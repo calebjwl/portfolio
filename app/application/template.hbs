@@ -1,21 +1,37 @@
 <div class="nav">
-  {{#link-to 'home' class="nav-links__item hvr-dark"}}
+  <div class="nav-center">
+    {{#link-to 'home' class="nav-center__item hvr-dark"}}
     Home
-  {{/link-to}}
-
-  <div class="nav-links">
-    {{#link-to 'about' class="nav-links__item hvr-dark"}}
+    {{/link-to}}
+    {{#link-to 'about' class="nav-center__item hvr-dark"}}
       About
     {{/link-to}}
 
-    {{#link-to 'projects.web' class="nav-links__item hvr-dark"}}
-      Portfolio
-    {{/link-to}}
+    {{#basic-dropdown horizontalPosition=center matchTriggerWidth=true as |dropdown|}}
+      {{#dropdown.trigger class="nav-center__item hvr-dark pointer"}}Portfolio{{/dropdown.trigger}}
+      {{#dropdown.content class="dropdown slide-fade"}}
+        {{#link-to 'projects.art' class="dropdown__item hvr-dark"}}
+        Art
+        {{/link-to}}
 
-    {{#link-to 'contact' class="nav-links__item hvr-dark"}}
+        {{#link-to 'projects.web' class="dropdown__item hvr-dark"}}
+        Web
+        {{/link-to}}
+
+        {{#link-to 'projects.music' class="dropdown__item hvr-dark"}}
+          Music
+        {{/link-to}}
+      {{/dropdown.content}}
+    {{/basic-dropdown}}
+
+    {{#link-to 'contact' class="nav-center__item hvr-dark"}}
       Contact
     {{/link-to}}
   </div>
+
+  {{#link-to 'drumkit' class="nav-center__item hvr-dark"}}
+    Play
+  {{/link-to}}
 </div>
 {{!-- {{liquid-outlet}} --}}
 {{outlet}}

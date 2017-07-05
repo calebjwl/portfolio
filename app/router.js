@@ -15,6 +15,7 @@ Router.map(function() {
     this.route('art');
     this.route('music');
   });
+  this.route('drumkit');
 });
 
 export default Router;

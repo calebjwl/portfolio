@@ -7,6 +7,13 @@
   transform: skew(0deg,-5deg) translateY(7%);
 }
 
+.avatar {
+  display: none;
+  margin-bottom: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+
 .headshot-about {
   width: 35%;
   position: absolute;
@@ -26,8 +33,17 @@
 }
 
 .bio {
-  font-size: rem;
   max-width: 30rem;
   margin: 0.5rem 0 0 0;
-  line-height: 28px;
+  line-height: 25px;
+}
+
+.quote {
+  margin-top: -0.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
+
+  &-tag {
+    margin-top: -0.5rem;
+  }
 }

@@ -5,19 +5,24 @@
 
   .block {
     width: 85%;
+    height: 100%;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: skew(0deg,-5deg) translate(-50%, -50%);
   }
 
   .about-text {
     width: 80%;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: translate(-50%, -50%);
   }
 
   .bio {
     line-height: 25px;
+  }
+
+  .avatar {
+    display: block;
   }
 }

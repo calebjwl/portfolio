@@ -12,7 +12,7 @@ export default Ember.Controller.extend({
     {
       src: '/img/chl.png',
       title: 'Cherry Hill Lane Demo',
-      description: 'Southern Rock and Roll band with a sound influenced heavily by Audioslave, Lynyrd Skynyrd, and Stone Temple Pilots',
+      description: 'Southern Rock and Roll band with a sound heavily influenced by Audioslave, Lynyrd Skynyrd, and Stone Temple Pilots.',
       tools: 'Drums | Producer | Mixing Engineer',
       link: 'https://soundcloud.com/cherryhilllane/sets/cherry-hill-lane-demo',
     },

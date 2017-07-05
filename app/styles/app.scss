@@ -19,6 +19,7 @@ $c-darkgray: #939393;
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:700');
 @import url('https://fonts.googleapis.com/css?family=Assistant');
+@import "ember-photoswipe";
 
 .nav {
   display: flex;
@@ -47,4 +48,8 @@ $c-darkgray: #939393;
 .bordered {
   border-top: $c-darkgray 0.05rem solid;
   border-bottom:  $c-darkgray 0.05rem solid;
+}
+
+.pointer {
+  cursor: pointer;
 }

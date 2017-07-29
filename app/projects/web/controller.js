@@ -13,11 +13,27 @@ export default Ember.Controller.extend({
     {
       src: '/img/practip.png',
       title: 'PracTip',
-      description: 'My final project at the Iron Yard - a social application that allows musicians around the world to connect with one another via challenge exercises and community forums.  Users can create their own challenges, post videos of themselves practicing challenge exercises, and post comments and critique on other users’ video submissions.',
+      description: 'PracTip is a application I built with one partner in three weeks. In the app, musicians can create an account, create forums and video posts, and challenge other users to complete their challenges and give feedback on posted videos. The app promotes a community of musicians helping one another get better at their instruments.',
       tools: 'Ember | Adonis | HTML | CSS',
       link: 'http://practip.surge.sh',
       github: 'https://github.com/practip'
     },
+    {
+      src: '/img/drumkit.png',
+      title: 'JS Drum Machine',
+      description: 'Use your keyboard to play my personalized drum machine, complete with 808 drum sounds and custom backing tracks. I built this with no frameworks in an effort to better solidify my vanilla Javascript fluency.',
+      tools: 'Javascript | HTML | CSS',
+      link: 'http://calebsdrumkit.surge.sh/',
+      github: 'https://github.com/calebjwl/01---JavaScript-Drum-Kit'
+    },
+    // {
+    //   src: '/img/spotify-searcher.png',
+    //   title: 'Spotify Searcher',
+    //   description: 'Spotify Searcher is the first app I built that is able to load results from a database (Spotify API) based on what a user inputs in the search bar. I also had some fun experimenting with Bulma as a styling framework, as well as the Model-View-Controller functionality of Vue.js.',
+    //   tools: 'Vue | Bulma | HTML | CSS',
+    //   link: 'http://spotify-searcher.surge.sh/',
+    //   github: 'https://github.com/calebjwl/16-spotify-collection'
+    // },
     {
       src: '/img/wave-rider.png',
       title: 'Wave Rider',
@@ -25,14 +41,6 @@ export default Ember.Controller.extend({
       tools: 'HTML | CSS',
       link: 'http://waverider.surge.sh',
       github: 'https://github.com/calebjwl/06-surf-and-paddle'
-    },
-    {
-      src: '/img/spotify-searcher.png',
-      title: 'Spotify Searcher',
-      description: 'Spotify Searcher is the first app I built that is able to load results from a database (Spotify API) based on what a user inputs in the search bar. I also had some fun experimenting with Bulma as a styling framework, as well as the Model-View-Controller functionality of Vue.js.',
-      tools: 'Vue | Bulma | HTML | CSS',
-      link: 'http://spotify-searcher.surge.sh/',
-      github: 'https://github.com/calebjwl/16-spotify-collection'
     },
     {
       src: '/img/my-contacts.png',

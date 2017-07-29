@@ -11,6 +11,14 @@ export default Ember.Controller.extend({
       github: 'https://github.com/calebjwl/belladivine',
     },
     {
+      src: '/img/tnt.png',
+      title: 'Tennessee Network Technologies',
+      description: 'I was hired to redesign the outdated website and logo for TNT. The company wanted a modern, sleek design with a more marketable visual representation of their company. This particular project helped me grow further in logo design, branding, and content development.',
+      tools: 'Ember | HTML | CSS | Photoshop',
+      link: 'http://tennesseenetworktechnologies.com',
+      github: 'https://github.com/calebjwl/tnt-site',
+    },
+    {
       src: '/img/practip.png',
       title: 'PracTip',
       description: 'PracTip is a application I built with one partner in three weeks. In the app, musicians can create an account, create forums and video posts, and challenge other users to complete their challenges and give feedback on posted videos. The app promotes a community of musicians helping one another get better at their instruments.',

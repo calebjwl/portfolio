@@ -3,6 +3,10 @@
     display: none;
   }
 
+  .avatar {
+    display: block;
+  }
+
   .block {
     width: 85%;
     height: 100%;
@@ -13,16 +17,10 @@
 
   .about-text {
     width: 80%;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
+    margin-top: -2rem;
   }
 
   .bio {
     line-height: 25px;
-  }
-
-  .avatar {
-    display: block;
   }
 }

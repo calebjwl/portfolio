@@ -21,7 +21,7 @@ export default Ember.Controller.extend({
     {
       src: '/img/practip.png',
       title: 'PracTip',
-      description: 'PracTip is a application I built with one partner in three weeks. In the app, musicians can create an account, create forums and video posts, and challenge other users to complete their challenges and give feedback on posted videos. The app promotes a community of musicians helping one another get better at their instruments.',
+      description: 'PracTip is an application I built with a partner in three weeks for our final project at the Iron Yard bootcamp. In the app, musicians can create an account, create forums and video posts, and challenge other users to complete their challenges and give feedback on posted videos. The app promotes a community of musicians helping one another get better at their instruments.',
       tools: 'Ember | Adonis | HTML | CSS',
       link: 'http://practip.surge.sh',
       github: 'https://github.com/practip'
@@ -29,7 +29,7 @@ export default Ember.Controller.extend({
     {
       src: '/img/drumkit.png',
       title: 'JS Drum Machine',
-      description: 'Use your keyboard to play my personalized drum machine, complete with 808 drum sounds and custom backing tracks. I built this with no frameworks in an effort to better solidify my vanilla Javascript fluency.',
+      description: 'Use your keyboard to play my personalized drum machine, complete with 808 drum sounds and custom backing tracks! I built this without any frameworks in an effort to better solidify my vanilla Javascript fluency with Wes Bos\' Javascript 30 series.',
       tools: 'Javascript | HTML | CSS',
       link: 'http://calebsdrumkit.surge.sh/',
       github: 'https://github.com/calebjwl/01---JavaScript-Drum-Kit'

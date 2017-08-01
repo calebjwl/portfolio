@@ -10,12 +10,15 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  background: $c-gray;
 
   &__item {
     width: calc(100% / 2 - 3rem);
     margin: 1.5rem;
   }
+}
+
+.pane {
+  background: $c-gray;
 }
 
 .preview {

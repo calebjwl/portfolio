@@ -1,6 +1,10 @@
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 1075px) {
   .headshot-about {
     display: none;
+  }
+
+  .avatar {
+    display: block;
   }
 
   .block {
@@ -13,16 +17,11 @@
 
   .about-text {
     width: 80%;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
+    margin-top: -2rem;
   }
 
   .bio {
+    max-width: 100%;
     line-height: 25px;
-  }
-
-  .avatar {
-    display: block;
   }
 }

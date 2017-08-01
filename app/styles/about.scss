@@ -7,9 +7,14 @@
   transform: skew(0deg,-5deg) translateY(7%);
 }
 
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
 .avatar {
   display: none;
-  margin-bottom: 1rem;
+  margin: 1rem;
   width: 10rem;
   height: 10rem;
 }
@@ -34,7 +39,6 @@
 
 .bio {
   max-width: 30rem;
-  margin: 0.5rem 0 0 0;
   line-height: 25px;
 }
 

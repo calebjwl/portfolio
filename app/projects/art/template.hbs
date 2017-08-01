@@ -1,7 +1,7 @@
 <div class="section">
   <div class="container">
-    <p class="page-title">Graphic Design &amp; Art</p>
-    <div class="grid">
+    <p class="page-title">Art &amp; Graphic Design</p>
+    <div class="grid pane">
       {{#photo-swipe items=items history=false as |photoswipe|}}
         {{#each items as |item index|}}
           <img class="preview card hvr-grow" src={{item.src}} {{action 'open' (hash index=index) target=photoswipe}} />

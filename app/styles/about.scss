@@ -7,6 +7,11 @@
   transform: skew(0deg,-5deg) translateY(7%);
 }
 
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
 .avatar {
   display: none;
   margin: 1rem;
@@ -14,22 +19,17 @@
   height: 10rem;
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-}
-
 .headshot-about {
   width: 35%;
-  position: absolute;
-  bottom: 0;
-  right: 10%;
+  // position: absolute;
+  // bottom: 0;
+  // right: 10%;
 }
 
 .about-text {
-  position: absolute;
-  left: 10%;
-  top: 15%;
+  // position: absolute;
+  // left: 10%;
+  // top: 15%;
 }
 
 .about-title {

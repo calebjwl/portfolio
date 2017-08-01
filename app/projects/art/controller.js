@@ -8,6 +8,11 @@ export default Ember.Controller.extend({
       h: 1200,
     },
     {
+      src: '/img/bon-iver.jpg',
+      w: 2997,
+      h: 2023,
+    },
+    {
       src: '/img/learning-space.png',
       w: 1642,
       h: 1021,
@@ -22,11 +27,11 @@ export default Ember.Controller.extend({
       w: 960,
       h: 1198,
     },
-    {
-      src: '/img/black-dog-logo.png',
-      w: 800,
-      h: 800,
-    },
+    // {
+    //   src: '/img/black-dog-logo.png',
+    //   w: 800,
+    //   h: 800,
+    // },
     {
       src: '/img/blueberry-caddy.jpg',
       w: 500,

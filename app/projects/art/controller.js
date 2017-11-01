@@ -27,11 +27,11 @@ export default Ember.Controller.extend({
       w: 960,
       h: 1198,
     },
-    // {
-    //   src: '/img/black-dog-logo.png',
-    //   w: 800,
-    //   h: 800,
-    // },
+    {
+      src: '/img/Ryan-Joyce-logo-diamond.jpg',
+      w: 670,
+      h: 462,
+    },
     {
       src: '/img/blueberry-caddy.jpg',
       w: 500,

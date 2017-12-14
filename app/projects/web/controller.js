@@ -15,7 +15,7 @@ export default Ember.Controller.extend({
       title: 'Tennessee Network Technologies',
       description: 'I was hired to redesign the outdated website and logo for TNT. The company wanted a modern, sleek design with a more marketable visual representation of their company. This particular project helped me grow further in logo design, branding, and content development.',
       tools: 'Ember | HTML | CSS | Photoshop',
-      link: 'http://tennesseenetworktechnologies.com',
+      link: 'http://tnnettech.com',
       github: 'https://github.com/calebjwl/tnt-site',
     },
     {

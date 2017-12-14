@@ -22,11 +22,11 @@ export default Ember.Controller.extend({
       w: 960,
       h: 1198,
     },
-    {
-      src: '/img/breaking-bad-gothic.jpg',
-      w: 960,
-      h: 1198,
-    },
+    // {
+    //   src: '/img/breaking-bad-gothic.jpg',
+    //   w: 960,
+    //   h: 1198,
+    // },
     {
       src: '/img/Ryan-Joyce-logo-diamond.jpg',
       w: 670,

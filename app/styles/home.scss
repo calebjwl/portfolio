@@ -34,10 +34,21 @@
   font-size: 1.5rem;
   margin: 0;
   margin-bottom: 1.6rem;
-  text-transform: uppercase;
 }
 
 .see-work {
   margin: 0;
   font-size: 1.2rem;
+}
+
+.button {
+  background: $c-primary;
+  border-radius: 4px;
+  padding: 0.3rem 0.7rem;
+  color: $c-white;
+
+  &:hover {
+    transition: 0.5s;
+    background: $c-darkgray;
+  }
 }

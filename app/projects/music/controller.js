@@ -3,11 +3,11 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   items: [
     {
-      src: '/img/sin.png',
-      title: 'Sin EP - Talia Stewart',
-      description: 'Talia Stewart is a singer/songwriter whose jazz-influenced vocals bring a distinctive style to her alternative pop sound.',
-      tools: 'Drums | Producer | Mixing Engineer',
-      link: 'https://open.spotify.com/album/6RldaeCfTWOd1eqxIF0dOR',
+      src: '/img/good-intent.jpg',
+      title: 'Laughing at the Funeral',
+      description: 'A recently released single from my current band, The Good Intentions.',
+      tools: 'Drums | Bass | Guitar | Producer | Mixing Engineer',
+      link: 'https://open.spotify.com/track/7mWnxcnp12bW6YT1qTx2A0?si=G2CreS7bQYe57WMzHdKlNw',
     },
     {
       src: '/img/chl.png',
@@ -19,14 +19,14 @@ export default Ember.Controller.extend({
     {
       src: '/img/take-it-slow.png',
       title: 'Take It Slow',
-      description: 'A high-energy funk-rock song I made my first semester of college with the help of my fellow students from Belmont University.',
+      description: 'A funk-rock song I made my first semester of college with the help of my fellow students from Belmont University.',
       tools: 'Writer | Vocals | Drums | Rhythm Guitar | Producer | Mixing & Mastering Engineer',
       link: 'https://open.spotify.com/album/7MRZa1LNivJMJIqStsGhnq',
     },
     {
       src: '/img/the-final-song.png',
       title: 'The Final Song',
-      description: 'Contrary to the title, this was my first public release of original work. This opened my eyes to the world of producing and engineering music, as well as the joys of learning new instruments outside of drums and guitar.',
+      description: 'My first public release of original music. This project opened my eyes to the world of audio engineering and producing songs.',
       tools: 'Writer | Vocals | Drums | Guitar | Bass | Producer | Mixing Engineer',
       link: 'https://open.spotify.com/album/0KOVQsc8pVDFPnb3VHlwjp',
     },

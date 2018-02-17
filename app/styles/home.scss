@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 .headshot {
   width: 48%;
   position: absolute;
@@ -16,7 +20,7 @@
 
 .title {
   font-size: 6.5rem;
-  margin: 0;
+  margin: 0 0 -1rem 0;
   font-family: 'Old Standard TT';
 }
 
@@ -26,14 +30,32 @@
   font-family: 'Old Standard TT';
 }
 
-.subtitle {
-  font-size: 1.5rem;
-  margin: 0;
-  margin-bottom: 1.6rem;
-  text-transform: uppercase;
+.see-work {
+  margin: 0.5rem;
+  font-size: 1.2rem;
 }
 
-.see-work {
-  margin: 0;
-  font-size: 1.2rem;
+.button {
+  background: $c-primary;
+  border-radius: 4px;
+  padding: 0.3rem 0.7rem;
+  color: $c-white;
+
+  &:hover {
+    transition: 0.5s;
+    background: $c-darkgray;
+  }
+}
+
+.social-media {
+  &-list {
+    display: flex;
+    margin: 1rem 0;
+  }
+
+  &-icon {
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    color: $c-darkgray;
+  }
 }
